@@ -3,6 +3,8 @@ on:
     branches:
       - $default-branch
   pull_request:
+    types:
+      - opened
     branches:
       - $default-branch
 
