@@ -3,6 +3,8 @@ name: Python package
 
 on: [push, pull_request]
 
+env:
+  PYTHONPATH: src
 jobs:
   build:
 
